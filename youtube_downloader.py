@@ -1,4 +1,4 @@
-from pytube import Playlist
+from pytubefix import Playlist
 
 # playlist = Playlist(input("Please enter the playlist URL: ")) # Input
 playlist = Playlist("Paste URL Playlist Here")
