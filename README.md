@@ -1,30 +1,15 @@
-# Youtube Downlaoder
+# YouTube Downloader
 
-Youtube Downloader by using **pytube**
+A lightweight Python tool for downloading YouTube videos, playlists and audio using **pytubefix**.
 
-Before using the projcet
-1 - Install [Python](https://www.python.org/downloads/)
-2 - Install [Git](https://git-scm.com/)
-3 - Install pip and Download pytube using Command line
-```bash 
-pip install git+https://github.com/pytube/pytube
-```
+<!-- ![YouTube Downloader Demo](https://example.com/demo.gif) *(optional: add demo gif/image)* -->
 
-How to use:
+## Prerequisites
 
-Take a Clone From the Repo
-```bash
-git clone https://github.com/hosamation/YouTube-Downloader.git
-```
+Before using this project, ensure you have the following installed:
 
-Switch between branches through Terminal
-
-To Download Video 
-```bash
-git switch video
-```
-
-To Download Playlist
-```bash
-git switch playlist
-```
+1. [Python 3.8+](https://www.python.org/downloads/)
+2. [Git](https://git-scm.com/)
+3. Required Python packages:
+   ```bash 
+   pip install pytubefix
