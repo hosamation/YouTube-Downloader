@@ -1,7 +1,7 @@
 from pytubefix import YouTube
 
-# video_link = YouTube(input("Please enter the video URL: "))
-video_link = YouTube("Paste URL Video Here")
+video_link = YouTube(input("Please enter the video URL: "))
+# video_link = YouTube("Paste URL Video Here")
 
 
 video_link.streams.get_highest_resolution().download(output_path= input("Enter full path of the folder"))
