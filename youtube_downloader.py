@@ -7,6 +7,6 @@ counter = 0
 # for video in playlist.videos[175:180]: # To Download specific videos from the playlist [Start : End + 1]
   
 for video in playlist.videos:
-  video.streams.get_highest_resolution().download(output_path=input("Enter full path of the folder: ")) # Input
+  video.streams.get_audio_only().download(output_path=input("Enter full path of the folder: ")) # Input
   counter+=1
   print(f"{counter} - {video.title} Successfully Downloaded.")
