@@ -1,15 +1,24 @@
-# YouTube Downloader
+# YouTube Downloader Toolkit
 
-A lightweight Python tool for downloading YouTube videos, playlists and audio using **pytubefix**.
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Prerequisites
+A comprehensive Python toolkit for downloading YouTube content including videos, playlists, audio, and subtitles.
 
-Before using this project, ensure you have the following installed:
+## Features
 
-1. [Python 3.8+](https://www.python.org/downloads/)
-2. [Git](https://git-scm.com/)
-3. Required Python packages:
-   ```bash 
-   pip install pytubefix
-   ```
-   
+- Download videos in various resolutions
+- Extract audio-only content
+- Batch download playlists
+- Subtitle/caption extraction
+- Metadata preservation
+- Progress tracking
+- Configurable output options
+
+## Installation
+
+```bash
+git clone git@github.com:hosamation/YouTube-Downloader.git
+cd YouTube-Downloader
+pip install pytubefix
+```
